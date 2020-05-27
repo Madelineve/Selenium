@@ -40,16 +40,16 @@ public class Moodle2{
             driver.manage().window().maximize();
 
             i++;
-            LastStep = "Step " + i + " wpisz login 83821";
+            LastStep = "Step " + i + " wpisz login ********";
             WebElement button = driver.findElement(By.id("login_username"));
-            button.sendKeys("83821");
+            button.sendKeys("**********");
 
             //  TimeUnit.SECONDS.sleep(3);
 
             i++;
             LastStep = "Step " + i + " wpisz hasło";
             button = driver.findElement(By.id("login_password"));
-            button.sendKeys("truskawka5");
+            button.sendKeys("***********");
 
             //   TimeUnit.SECONDS.sleep(10);
             i++;
@@ -93,16 +93,16 @@ public class Moodle2{
 
 
             i++;
-            LastStep = "Step " + i + " wpisz login 83818";
+            LastStep = "Step " + i + " wpisz login ***********";
             button = driver.findElement(By.id("login_username"));
-            button.sendKeys("83818");
+            button.sendKeys("***********");
 
             //  TimeUnit.SECONDS.sleep(3);
 
             i++;
             LastStep = "Step " + i + " wpisz hasło";
             button = driver.findElement(By.id("login_password"));
-            button.sendKeys("pomidor1");
+            button.sendKeys("************");
 
             //   TimeUnit.SECONDS.sleep(10);
             i++;
