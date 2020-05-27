@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SeleniumTest:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SeleniumTest_jar</output-path>
+    <root id="archive" name="SeleniumTest.jar">
+      <element id="module-output" name="SeleniumTest" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/selenium-server-standalone-3.141.59.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/Downloads/mysql-connector-java-5.1.18-bin.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>
